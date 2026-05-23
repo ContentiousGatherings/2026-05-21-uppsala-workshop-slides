@@ -1,0 +1,8 @@
+.DS_Store
+.quarto/
+_site/
+_freeze/
+presentation_files/
+index_files/
+
+/.quarto/

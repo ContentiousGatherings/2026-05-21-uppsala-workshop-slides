@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "Developing a pipeline for extracting contentious gatherings from historical Swedish newspapers, 1820–1939"
+message: "If you use or refer to these slides, please cite them as below."
+type: software
+authors:
+  - given-names: Andrés
+    family-names: Brink Pinto
+    affiliation: Lund University
+    orcid: https://orcid.org/0000-0002-1505-9289
+  - given-names: Mathias
+    family-names: Johansson
+    affiliation: Lund University
+    email: mathias.johansson@kultur.lu.se
+    orcid: https://orcid.org/0000-0002-3338-0551
+  - given-names: Magnus
+    family-names: Olofsson
+    affiliation: Lund University
+    orcid: https://orcid.org/0000-0002-4099-4068
+date-released: "2026-05-21"
+license: CC-BY-NC-4.0
+url: "https://ContentiousGatherings.github.io/2026-05-21-uppsala-workshop-slides/"
+repository-code: "https://github.com/ContentiousGatherings/2026-05-21-uppsala-workshop-slides"
+preferred-citation:
+  type: conference-paper
+  title: "Developing a pipeline for extracting contentious gatherings from historical Swedish newspapers, 1820–1939"
+  authors:
+    - given-names: Andrés
+      family-names: Brink Pinto
+      affiliation: Lund University
+    - given-names: Mathias
+      family-names: Johansson
+      affiliation: Lund University
+    - given-names: Magnus
+      family-names: Olofsson
+      affiliation: Lund University
+  year: 2026
+  month: 5
+  conference:
+    name: "From Archive to Dataset: Uppsala workshop on coding contention with new methods"
+    city: Uppsala
+    country: SE

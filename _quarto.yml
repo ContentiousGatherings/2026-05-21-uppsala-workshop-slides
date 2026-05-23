@@ -1,0 +1,19 @@
+project:
+  type: website
+  render:
+    - index.qmd
+
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    transition: none
+    width: 1280
+    height: 720
+    margin: 0.1
+    center: false
+    hash-type: number
+    pdf-separate-fragments: false
+
+execute:
+  freeze: false

@@ -1,0 +1,123 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$presentation-heading-font: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$presentation-font-size-root: 34px;
+$presentation-heading-color: #2c3e50;
+$body-color: #333;
+$link-color: #2980b9;
+
+/*-- scss:rules --*/
+
+.reveal .slide-number {
+  font-size: 0.6em;
+  color: #999;
+}
+
+.reveal h2 {
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.6em;
+}
+
+.reveal .subtitle {
+  font-size: 0.7em;
+  color: #555;
+}
+
+.reveal table {
+  font-size: 0.75em;
+}
+
+.reveal .small {
+  font-size: 0.65em;
+}
+
+.reveal .source {
+  font-size: 0.55em;
+  color: #888;
+  margin-top: 0.5em;
+}
+
+.reveal .embed-container {
+  width: 100%;
+  height: 550px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.reveal .columns .column {
+  vertical-align: top;
+}
+
+.reveal blockquote {
+  font-size: 0.85em;
+  border-left: 4px solid #2c3e50;
+  padding-left: 1em;
+  font-style: italic;
+}
+
+.reveal .takeaway {
+  background: #f8f9fa;
+  border-left: 4px solid #2c3e50;
+  padding: 0.5em 1em;
+  margin: 0.4em 0;
+  font-size: 0.85em;
+}
+
+.reveal .article-excerpt {
+  position: absolute;
+  right: 0.5em;
+  top: 2em;
+  height: 85%;
+  width: auto;
+  z-index: 5;
+  pointer-events: none;
+}
+.reveal .flow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4em;
+  margin: 1em 0;
+
+  .flow-box {
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+    padding: 0.4em 0.9em;
+    background: #f8f9fa;
+    text-align: center;
+    min-width: 4.5em;
+    font-weight: 500;
+    line-height: 1.2;
+
+    code {
+      background: transparent;
+      padding: 0;
+      color: inherit;
+    }
+  }
+
+  .flow-arrow {
+    font-size: 1.6em;
+    color: #2c3e50;
+    font-weight: bold;
+  }
+}
+
+// .reveal::after {
+//   content: "Early draft do not spread";
+//   position: fixed;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%) rotate(-30deg);
+//   font-size: 8em;
+//   font-weight: bold;
+//   color: red;
+//   opacity: 0.18;
+//   pointer-events: none;
+//   z-index: 1000;
+//   white-space: nowrap;
+//   text-transform: uppercase;
+//   letter-spacing: 0.05em;
+// }
