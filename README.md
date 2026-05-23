@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20357704.svg)](https://doi.org/10.5281/zenodo.20357704)
+
 # Developing a pipeline for extracting contentious gatherings from historical Swedish newspapers, 1820–1939
 
 Slides for the talk presented at *From Archive to Dataset: Uppsala workshop on coding contention with new methods*, 2026-05-21.
